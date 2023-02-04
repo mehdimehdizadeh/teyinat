@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Təyinat</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.9.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+</head>
+
+<body id="body">
+    {% block body %}
+      
+    {% endblock body %}
+
+    <a href="#" id="xx5"class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+    <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script type="text/javascript">
+    function hover() {
+        document.getElementById("mysearch").style.opacity = "1";
+        document.getElementById("mysearch").style.transition = "2s";
+    }
+    function mysearchout(x) {
+      x.style.opacity = "0";
+      x.style.transition = "2s";
+    }
+    function blue() {
+      document.getElementById("xx1").style.fill = "#5fd8ff"; 
+      document.getElementById("xx1").style.stroke = "#5fd8ff"; 
+      document.getElementById("xx2").style.fill = "#5fd8ff";
+      document.getElementById("xx2").style.stroke = "#5fd8ff";
+      document.getElementById("xx3").style.background = "#5fd8ff";
+      document.getElementById("xx4").style.background = "#5fd8ff";
+      document.getElementById("xx5").style.background = "#5fd8ff";
+      document.getElementById('xx6').style.backgroundImage = "url('{% static 'assets/img/b.png' %}')";
+    }
+    function red() {
+      document.getElementById("xx1").style.fill = "#ff6363"; 
+      document.getElementById("xx1").style.stroke = "#ff6363"; 
+      document.getElementById("xx2").style.fill = "#ff6363";
+      document.getElementById("xx2").style.stroke = "#ff6363";
+      document.getElementById("xx3").style.background = "#ff6363";
+      document.getElementById("xx4").style.background = "#ff6363";
+      document.getElementById("xx5").style.background = "#ff6363";
+      document.getElementById('xx6').style.backgroundImage = "url('{% static 'assets/img/a.png' %}')";
+    }
+      function green() {
+      document.getElementById("xx1").style.fill = "#11e096"; 
+      document.getElementById("xx1").style.stroke = "#11e096"; 
+      document.getElementById("xx2").style.fill = "#11e096";
+      document.getElementById("xx2").style.stroke = "#11e096";
+      document.getElementById("xx3").style.background = "#11e096";
+      document.getElementById("xx4").style.background = "#11e096";
+      document.getElementById("xx5").style.background = "#11e096";
+      document.getElementById('xx6').style.backgroundImage = "url('{% static 'assets/img/t.png' %}')";
+    }
+    function ready() {
+      var element = document.body;
+     element.classList.toggle("dark-mode");
+      var element2 = document.getElementById("moon");
+     element2.classList.toggle("backkk");
+  var z = document.getElementById("lalala");
+    if (z.alt === "aa") {
+      document.getElementById("lalala").src = "{% static 'assets/img/q.png' %}";
+      z.alt = "bb";
+    } else {
+      z.alt = "aa";
+      document.getElementById("lalala").src = "{% static 'assets/img/teyinat.png' %}";
+    }
+  
+    var x = document.getElementsByClassName("example");
+    x[0].classList.toggle("white");
+    x[1].classList.toggle("white");
+    x[2].classList.toggle("white");
+    x[3].classList.toggle("white");
+    x[4].classList.toggle("white");
+    x[5].classList.toggle("white");
+    x[6].classList.toggle("white");
+    x[7].classList.toggle("white");
+    x[8].classList.toggle("white");
+    x[9].classList.toggle("white");
+    x[10].classList.toggle("white");
+    x[11].classList.toggle("white");
+    var searching = document.getElementById("yehu");
+    searching.classList.toggle("white");
+    var f = document.getElementsByClassName("header");
+    f[0].classList.toggle("navback")
+    }
+  
+    </script>
+    
+  
+  </body>
+  
+  </html>
